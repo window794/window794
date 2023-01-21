@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Canon(Salome Shion)</h1>
+<h1 align="center">Hi 👋, I'm Kanon</h1>
 <h3 align="center">Always enjoying QuizKnock and Programming!</h3>
 
 - 🌱 I’m currently learning **C, Python, Excel VBA, English and so on...**
