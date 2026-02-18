@@ -4,10 +4,4 @@
 - 🌱 I’m currently learning **C, Python, Excel VBA, English and so on...**
 
 - ⚡ Fun fact **I think I am goofy:)**
-- [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=window794)](https://github.com/anuraghazra/github-readme-stats)
-<a href="https://github.com/anuraghazra/github-readme-stats">
-    <img align="left" src="https://github-readme-stats.vercel.app/api?username=window794&show_icons=true&count_private=true&theme=dracula">
-</a>
-<a href="https://github.com/anuraghazra/github-readme-stats">
-    <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=window794">
-</a>
+[![window794's GitHub stats](https://github-stats-extended.vercel.app/api?username=window794)](https://github.com/stats-organization/github-stats-extended)
