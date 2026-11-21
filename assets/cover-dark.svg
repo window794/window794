@@ -15,7 +15,7 @@
   </g>
   <text x="38" y="164" font-family="Georgia, 'Times New Roman', serif" font-size="86" letter-spacing="-5" fill="#F2EFE8">window794</text>
   <path d="M44 199h27" stroke="#A0BDCC" stroke-width="2"/>
-  <text class="subject" x="84" y="205" fill="#A0BDCC" font-family="Arial, sans-serif" font-size="16" letter-spacing="1.1">Testing, automation &amp; small tools</text>
+  <text class="subject" x="84" y="205" fill="#A0BDCC" font-family="Arial, sans-serif" font-size="16" letter-spacing="1.1">Automation &amp; Small Tools</text>
   <g clip-path="url(#arch)">
     <rect x="610" y="33" width="166" height="195" fill="#2B4254"/>
     <circle class="sun" cx="728" cy="92" r="22" fill="#B8D4E0"/>
