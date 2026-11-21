@@ -1,0 +1,22 @@
+[
+  {
+    "type": "normal",
+    "fileName": "calendar-light.svg",
+    "backgroundColor": "#FAF6F0",
+    "foregroundColor": "#4A4A4A",
+    "strongColor": "#34464F",
+    "weakColor": "#506671",
+    "radarColor": "#9CBFD0",
+    "contribColors": ["#E5E8E6", "#C9DEE5", "#A8C8D5", "#82A7B8", "#567E91"]
+  },
+  {
+    "type": "normal",
+    "fileName": "calendar-dark.svg",
+    "backgroundColor": "#1C2128",
+    "foregroundColor": "#DCE8ED",
+    "strongColor": "#DCE8ED",
+    "weakColor": "#ADC2CC",
+    "radarColor": "#9CBFD0",
+    "contribColors": ["#2C3840", "#405B69", "#618392", "#8CACBA", "#B8D4E0"]
+  }
+]
