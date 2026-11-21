@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="270" viewBox="0 0 880 270" role="img" aria-labelledby="title desc">
+  <title id="title">window794 — Field notes from Tokyo</title>
+  <desc id="desc">An open arched window looks out over layered blue hills. A little light moves across the sky.</desc>
+  <defs>
+    <clipPath id="arch"><path d="M610 227V117a83 83 0 0 1 166 0v110Z"/></clipPath>
+    <pattern id="hatch" width="5" height="5" patternUnits="userSpaceOnUse"><path d="m-1 1 2-2M0 5l5-5m-1 6 2-2" stroke="#A0BDCC" stroke-width=".65"/></pattern>
+  </defs>
+  <style>@media (prefers-reduced-motion: no-preference) { .sun { animation: rise 2.4s ease-out both } @keyframes rise { from { transform: translateY(6px) } to { transform: translateY(0) } } }
+    @media (max-width: 480px) { .kicker { font-size: 30px } .subject { font-size: 25px; letter-spacing: 0 } }
+  </style>
+  <rect width="880" height="270" fill="#17232F"/>
+  <g fill="none" stroke="#668294"><path d="M32 24h816M32 246h816"/><path d="M32 19v10m816-10v10M32 241v10m816-10v10"/></g>
+  <g fill="#A0BDCC" font-family="Georgia, 'Times New Roman', serif">
+    <text class="kicker" x="43" y="78" font-size="22" font-style="italic">Field notes from Tokyo</text>
+  </g>
+  <text x="38" y="164" font-family="Georgia, 'Times New Roman', serif" font-size="86" letter-spacing="-5" fill="#F2EFE8">window794</text>
+  <path d="M44 199h27" stroke="#A0BDCC" stroke-width="2"/>
+  <text class="subject" x="84" y="205" fill="#A0BDCC" font-family="Arial, sans-serif" font-size="16" letter-spacing="1.1">Testing, automation &amp; small tools</text>
+  <g clip-path="url(#arch)">
+    <rect x="610" y="33" width="166" height="195" fill="#2B4254"/>
+    <circle class="sun" cx="728" cy="92" r="22" fill="#B8D4E0"/>
+    <path d="M598 172q51-40 85-24t104-25v108H598Z" fill="#587B92"/>
+    <path d="M596 184q48-28 94-17t101-13v78H596Z" fill="#2B4254" stroke="#668294"/>
+    <path d="M601 204q39-14 72-11t61-8 58-3v48H601Z" fill="url(#hatch)"/>
+    <path d="M612 219q80-9 162-24" fill="none" stroke="#A0BDCC"/>
+  </g>
+  <g fill="none" stroke="#A0BDCC" stroke-linejoin="round">
+    <path d="M604 228V117a89 89 0 0 1 178 0v111M610 227V117a83 83 0 0 1 166 0v110Z" stroke-width="1.7"/>
+    <path d="M599 230h188v4H599z" fill="#17232F"/>
+    <path d="M610 117h166M693 34v193" stroke-width="2"/>
+    <path d="m693 117 58 14v76l-58 20z" fill="#17232F" fill-opacity=".47" stroke-width="1.8"/>
+    <path d="m698 124 48 11v68l-48 16zM693 171l58-2"/>
+    <path d="M740 175v8" stroke-width="2.5"/>
+    <path d="M597 234h193m-182 3h171" opacity=".6"/>
+  </g>
+</svg>

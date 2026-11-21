@@ -1,0 +1,62 @@
+name: Refresh contribution calendar
+
+on:
+  schedule:
+    - cron: '17 18 * * 0'
+  workflow_dispatch:
+
+permissions: {}
+
+concurrency:
+  group: profile-calendar
+  cancel-in-progress: false
+
+jobs:
+  render:
+    if: github.repository == 'window794/window794' && github.ref_name == github.event.repository.default_branch
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4.3.1
+        with:
+          persist-credentials: false
+      - uses: yoshi389111/github-profile-3d-contrib@7d95e7d4cdc028dd1e1cbd957d65f35efb12ae39 # v0.9.3
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          USERNAME: ${{ github.repository_owner }}
+          SETTING_JSON: .github/profile/calendar.json
+      - name: Prepare the two README images
+        run: python3 .github/profile/calendar.py
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: calendar
+          path: assets/calendar-*.svg
+          if-no-files-found: error
+          retention-days: 1
+
+  propose-update:
+    needs: render
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4.3.1
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          persist-credentials: false
+      - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4
+        with:
+          name: calendar
+          path: assets
+      - uses: peter-evans/create-pull-request@3ffccacd46053766916f087ce41d627c0b8cf2d1 # v8
+        with:
+          branch: automation/contribution-calendar
+          base: ${{ github.event.repository.default_branch }}
+          title: Refresh the contribution calendar
+          commit-message: Refresh the contribution calendar
+          body: Updates the light and dark SVGs from the GitHub contribution calendar.
+          add-paths: |
+            assets/calendar-light.svg
+            assets/calendar-dark.svg
