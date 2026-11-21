@@ -21,22 +21,18 @@ I'm window794, an IT engineer based in Tokyo. I lived in England as a child and 
 
 ## 04 / Toolbox
 
-**Business automation** · Excel VBA, Access VBA, Access SQL and Power Automate are tools I've used in day-to-day work.
+**Used in Practice** · I build and maintain tools with Excel VBA and Access VBA. I use Access SQL to extract the business records a task needs and Power Automate for recurring workflows.
 
-**Programming & scripting** · I build browser tools with HTML, CSS and JavaScript. TypeScript, Python, Google Apps Script and PowerShell are part of my personal development and exploration.
+**Personal Projects** · I build browser tools with HTML, CSS and JavaScript. Other projects include a to-do app in TypeScript and a Google Apps Script version of Atelier Tools. TDC Food Chart uses Python to check shop links, and my VBA settings tool includes a PowerShell script that builds the workbook.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/languages-dark.svg">
   <img src="./assets/languages-light.svg" width="294" alt="Personal development languages: HTML, CSS, JavaScript, TypeScript and Python">
 </picture>
 
-**Databases** · My practical experience is with Access SQL for data extraction. I've had some exposure to Oracle at work and have explored MySQL and SQL Server in personal projects.
+**Personal Environment & Tools** · I use Windows daily, both at work and at home. My home Linux machine runs Ubuntu, and I use it regularly. From my smartphone, I connect to it over a VPN with Termius as my remote client. On Ubuntu, I use tmux to manage terminal sessions. I've also used a Raspberry Pi in my own time.
 
-**OS & infrastructure** · Windows for my Excel and Access tools. Linux, including Ubuntu, in personal use.
-
-**Development tools** · VS Code, Anaconda, Tera Term, SI Object Browser and Obsidian.
-
-**AI tools** · ChatGPT, Claude, Codex and Claude Code.
+**Familiar With / Exploring** · I've had some exposure to Oracle at work and have explored MySQL and SQL Server in personal projects. Other tools I've used include Anaconda, Tera Term, SI Object Browser and Obsidian.
 
 ## 05 / Selected works
 
