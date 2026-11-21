@@ -1,6 +1,6 @@
 # Design System Edition
 
-The masthead uses the cream, charcoal, mist blue and pre-dawn surfaces from [Atelier Tools](https://github.com/window794/atelier-tools/blob/main/assets/style.css). The English title is [Cormorant Garamond](https://github.com/google/fonts/tree/main/ofl/cormorantgaramond) and the Japanese spine is [Zen Old Mincho](https://github.com/google/fonts/tree/main/ofl/zenoldmincho). Both families are licensed under SIL OFL 1.1. The SVGs contain the outlines of this lettering. The small labels use a generic monospace face.
+The masthead uses the cream, charcoal, mist blue and pre-dawn surfaces from [Atelier Tools](https://github.com/window794/atelier-tools/blob/main/assets/style.css). The English title uses outlined [Cormorant Garamond](https://github.com/google/fonts/tree/main/ofl/cormorantgaramond), licensed under SIL OFL 1.1. The spine features the arched window from the Nord Dark edition. The small labels use a generic monospace face.
 
 The language badges are local, recoloured copies of output from [GitHub Readme Tech Stack](https://github.com/0l1v3rr/github-readme-tech-stack). The Atelier pictures show the public app converting tab-separated sample rows into JSON.
 
